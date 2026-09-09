@@ -273,7 +273,7 @@ extension ExtensionProvider {
     }
 
     func postServiceClose() {
-
+    }
     func handleVPNStatusChanged() {
 #if os(iOS)
         if #available(iOS 18.0, *) {
@@ -287,6 +287,5 @@ extension ExtensionProvider {
             )
         }
 #endif
-        
     }
 }
