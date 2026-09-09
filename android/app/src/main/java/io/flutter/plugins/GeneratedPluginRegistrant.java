@@ -71,11 +71,6 @@ public final class GeneratedPluginRegistrant {
       Log.e(TAG, "Error registering plugin image_picker_android, io.flutter.plugins.imagepicker.ImagePickerPlugin", e);
     }
     try {
-      flutterEngine.getPlugins().add(new dev.flutter.plugins.integration_test.IntegrationTestPlugin());
-    } catch (Exception e) {
-      Log.e(TAG, "Error registering plugin integration_test, dev.flutter.plugins.integration_test.IntegrationTestPlugin", e);
-    }
-    try {
       flutterEngine.getPlugins().add(new io.nebula.vpn_service.VpnServicePlugin());
     } catch (Exception e) {
       Log.e(TAG, "Error registering plugin libclash_vpn_service, io.nebula.vpn_service.VpnServicePlugin", e);
